@@ -23,8 +23,9 @@ public class ExtentReportListener implements ITestListener {
 
 	static Date objNewDateFolder = new Date();
 	static SimpleDateFormat dateFormat_Folder = new SimpleDateFormat("dd_MM_YYYY");
-	static File file = new File(System.getProperty("user.dir") + "/target/"+dateFormat_Folder.format(objNewDateFolder));
-    boolean status =file.mkdir();
+	//static File file = new File(System.getProperty("user.dir") + "/target/"+dateFormat_Folder.format(objNewDateFolder));
+	static File file = new File(System.getProperty("user.dir") + "/target/");
+	boolean status =file.mkdir();
 	static Date objNewTimeFile = new Date();
     static SimpleDateFormat dateFormat_File = new SimpleDateFormat("dd_MM_YYYY @ HH_mm_SS");
 	private static final String OUTPUT_FOLDER = file.getPath()+"/";
