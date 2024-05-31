@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-07T03:08:25 PDT" name="API Sanity Suite" finished-at="2024-05-07T03:08:37 PDT" duration-ms="11216">
+    <groups>
+    </groups>
+    <test started-at="2024-05-07T03:08:25 PDT" name="Go Rest API Amadeus Test" finished-at="2024-05-07T03:08:31 PDT" duration-ms="5991">
+      <class name="com.qa.tests.AmadeusAPITest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.AmadeusAPITest@413f69cc]" started-at="2024-05-07T03:08:25 PDT" name="setUp" finished-at="2024-05-07T03:08:25 PDT" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://test.api.amadeus.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="flightAPiSetup()[pri:0, instance:com.qa.tests.AmadeusAPITest@413f69cc]" started-at="2024-05-07T03:08:25 PDT" name="flightAPiSetup" finished-at="2024-05-07T03:08:28 PDT" duration-ms="2590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightAPiSetup -->
+        <test-method signature="getFlightInfo()[pri:0, instance:com.qa.tests.AmadeusAPITest@413f69cc]" started-at="2024-05-07T03:08:28 PDT" name="getFlightInfo" finished-at="2024-05-07T03:08:31 PDT" duration-ms="3353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFlightInfo -->
+      </class> <!-- com.qa.tests.AmadeusAPITest -->
+    </test> <!-- Go Rest API Amadeus Test -->
+    <test started-at="2024-05-07T03:08:32 PDT" name="Go Rest API Create User Test" finished-at="2024-05-07T03:08:37 PDT" duration-ms="4950">
+      <class name="com.qa.tests.CreateGoRestUserTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.CreateGoRestUserTest@77102b91]" started-at="2024-05-07T03:08:32 PDT" name="setUp" finished-at="2024-05-07T03:08:32 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://gorest.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createUserTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CreateGoRestUserTest@77102b91]" started-at="2024-05-07T03:08:32 PDT" name="createUserTest" data-provider="getUserTestData" finished-at="2024-05-07T03:08:33 PDT" duration-ms="1680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Subodh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method is-config="true" signature="getUserSetup()[pri:0, instance:com.qa.tests.CreateGoRestUserTest@77102b91]" started-at="2024-05-07T03:08:32 PDT" name="getUserSetup" finished-at="2024-05-07T03:08:32 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserSetup -->
+        <test-method signature="createUserTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CreateGoRestUserTest@77102b91]" started-at="2024-05-07T03:08:33 PDT" name="createUserTest" data-provider="getUserTestData" finished-at="2024-05-07T03:08:35 PDT" duration-ms="1933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Seema]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inactive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method is-config="true" signature="getUserSetup()[pri:0, instance:com.qa.tests.CreateGoRestUserTest@77102b91]" started-at="2024-05-07T03:08:33 PDT" name="getUserSetup" finished-at="2024-05-07T03:08:33 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserSetup -->
+        <test-method is-config="true" signature="getUserSetup()[pri:0, instance:com.qa.tests.CreateGoRestUserTest@77102b91]" started-at="2024-05-07T03:08:35 PDT" name="getUserSetup" finished-at="2024-05-07T03:08:35 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserSetup -->
+        <test-method signature="createUserTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CreateGoRestUserTest@77102b91]" started-at="2024-05-07T03:08:35 PDT" name="createUserTest" data-provider="getUserTestData" finished-at="2024-05-07T03:08:37 PDT" duration-ms="1326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Madhuri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+      </class> <!-- com.qa.tests.CreateGoRestUserTest -->
+    </test> <!-- Go Rest API Create User Test -->
+  </suite> <!-- API Sanity Suite -->
+</testng-results>

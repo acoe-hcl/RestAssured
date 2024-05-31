@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="API Sanity Suite" thread-count="1"
+	parallel="tests" verbose="4">
+	
+	
+	<listeners>
+		<listener
+			class-name="com.qa.listeners.ExtentReportListener" />
+	</listeners>
+	
+   <test name="Go Rest API Amadeus Test">
+		<parameter name="baseURI" value="https://test.api.amadeus.com" />
+
+		<classes>
+			<class name="com.qa.tests.AmadeusAPITest" />
+						
+		</classes>
+	</test>
+   <test name="Go Rest API Create User Test">
+		<parameter name="baseURI" value="https://gorest.co.in" />
+
+		<classes>
+			<class name="com.qa.tests.CreateGoRestUserTest" />
+						
+		</classes>
+	</test>
+	
+  <!--  <test name="Go Rest API Object User Test">
+		<parameter name="baseURI" value="https://api.restful-api.dev/objects" />
+
+		<classes>
+			<class name="com.qa.tests.ObjectUserTest" />
+						
+		</classes>
+	</test>-->
+</suite>
